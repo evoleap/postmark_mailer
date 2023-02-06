@@ -9,7 +9,7 @@ _**NOTE:** This gem only provides a means of delivering transactional emails fro
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'postmark_mailer', github: 'scienceexchange/postmark_mailer'
+gem 'postmark_mailer', github: 'evoleap/postmark_mailer'
 ```
 
 And then execute:
