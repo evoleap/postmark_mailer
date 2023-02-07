@@ -5,8 +5,8 @@ module PostmarkMailer
     class << self
       private
 
-      def respond_to_missing?(method, *)
-        new.respond_to?(method) || super
+      def respond_to_missing?(method, *args)
+        new.respond_to?(method, args) || super
       end
 
       def method_missing(method, *args)
