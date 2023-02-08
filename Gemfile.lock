@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    postmark_mailer (0.1.5)
+    postmark_mailer (0.1.6)
       activejob (>= 4.2)
       postmark
 

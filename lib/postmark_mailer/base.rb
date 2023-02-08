@@ -10,7 +10,7 @@ module PostmarkMailer
       end
 
       def method_missing(method, *args)
-        if respond_to_missing?(method)
+        if respond_to_missing?(method, nil)
           new(method.to_s).public_send(method, *args)
         else
           super
